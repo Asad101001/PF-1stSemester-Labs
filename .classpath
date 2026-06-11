@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="arrays"/>
+	<classpathentry kind="src" path="sorting"/>
+	<classpathentry kind="src" path="strings"/>
+	<classpathentry kind="src" path="file_handling"/>
+	<classpathentry kind="src" path="recursion"/>
+	<classpathentry kind="src" path="searching"/>
+	<classpathentry kind="src" path="math_and_logic"/>
+	<classpathentry kind="src" path="assignments_and_exams"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

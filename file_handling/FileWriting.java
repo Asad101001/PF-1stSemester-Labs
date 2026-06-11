@@ -6,7 +6,7 @@ public class FileWriting {
 
 	public static void main(String[] args) {
 try {
-	File myObj = new File("firsttxt.txt");
+	File myObj = new File("data/firsttxt.txt");
 	 if (myObj.createNewFile()) {
          System.out.println("Created Successfully: " + myObj.getName());
      } else {

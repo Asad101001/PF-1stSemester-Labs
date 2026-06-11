@@ -4,13 +4,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class ASCIIcaseInsensitive {
+public class AsciiCaseInsensitive {
 
 	public static void main(String[] args) {
 
 		int[] asciiCount = new int[256];
 		try {
-			Scanner fileReader = new Scanner(new File("src/business_1.txt"));
+			Scanner fileReader = new Scanner(new File("data/business_1.txt"));
 			while (fileReader.hasNextLine()) {
 				String line = fileReader.nextLine().toLowerCase(); // ONLY CHANGE IN THE CODE : CONVERTS ALL THE LINES
 																	// READ AS STRING INTO LOWERCASE ALLOWING EQUAL

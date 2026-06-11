@@ -1,13 +1,13 @@
 /*
 a) Write a Java program that keeps taking input of Seat Number, name and GPA of class-fellows and stores each of the three input values in three separate one dimensional arrays; (one for storing seat numbers, second for names and third for GPAs). Input should end when the user gives a blank input for seat number.
 b) Extend the program developed in previous part of this question to add following functionality;
-c) After all the input is complete your program should ask for Seat Number. If that seat number is in the array then print  the Seat Number , Name and GPA of this class-fellow otherwise it should print “Data for This Seat Number was not entered”. Keep on taking input of Seat Number and searching it until the user enters a blank value for Seat Number.-
+c) After all the input is complete your program should ask for Seat Number. If that seat number is in the array then print  the Seat Number , Name and GPA of this class-fellow otherwise it should print "Data for This Seat Number was not entered". Keep on taking input of Seat Number and searching it until the user enters a blank value for Seat Number.-
 */
 
 
 import java.util.Scanner;
 
-public class STUDENTINFO {
+public class StudentInfo {
 
 	public static void main(String[] args) {
 

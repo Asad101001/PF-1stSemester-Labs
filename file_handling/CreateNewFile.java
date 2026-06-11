@@ -3,10 +3,10 @@ package java1;
 import java.io.File; //IMPORTING FILE & IOException CLASSES
 import java.io.IOException;
 
-public class CREATENEWFILE {
+public class CreateNewFile {
 	public static void main(String[] args) {
 
-		File myObj = new File("filename.txt"); // CREATING NEW FILE(myObj) with the name 'filename.txt'
+		File myObj = new File("data/filename.txt"); // CREATING NEW FILE(myObj) with the name 'filename.txt'
 
 		try { // USING TRY CATCH BLOCK TO AVOID ERRORS
 

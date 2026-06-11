@@ -19,7 +19,7 @@ public class SampleForQuizExam {
     public static void main(String[] args) {
 
         // Initialize file and reader variables
-        File file = new File("src/sampleForQuizExam.txt"); // Create File object
+        File file = new File("data/sampleForQuizExam.txt"); // Create File object
         BufferedReader reader = null; // Initialize reader as null
 
         try {

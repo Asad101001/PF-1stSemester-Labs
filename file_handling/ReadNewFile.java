@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException; //CATCHES ERROR IF FILE DOES NOT EXIST
 import java.util.Scanner; //THE 'Scanner' IS USED TO READ DATA(either as input from user or data from file)
 
-public class READNEWFILE {
+public class ReadNewFile {
 
     public static void main(String[] args) {
         try {
-            File myObj = new File("filename.txt"); // 'File'->object 'myObj'->name 'filename.txt'->target file
+            File myObj = new File("data/filename.txt"); // 'File'->object 'myObj'->name 'filename.txt'->target file
 
             Scanner myReader = new Scanner(myObj); // 'myReader' reads the file from 'myObj'
 

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class ASCIIcaseSensitive {
+public class AsciiCaseSensitive {
 
     public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class ASCIIcaseSensitive {
         // FOR
         // COUNTING CHARACTER APPEARANCES
         try {// TRY CATCH BLOCK TO HANDLE ERRRORS
-            Scanner fileReader = new Scanner(new File("business_1.txt"));// CREATING NEW SCANNER THAT READS LINE BY
+            Scanner fileReader = new Scanner(new File("data/business_1.txt"));// CREATING NEW SCANNER THAT READS LINE BY
             // LINE FROM THE FILE AT GIVEN FILEPATH
             while (fileReader.hasNextLine()) {                               // KEEPS LOOPING AS LONG AS THERE IS A FILE TO BE READ
                 String line = fileReader.nextLine();                         //STORES THE NEXT LINE FROM THE FILE AS A STRING

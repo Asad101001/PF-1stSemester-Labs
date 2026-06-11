@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //RECURSIVE FUNCTION->function that calls itself and process is called RECURSION
 
-public class FACTORIALusingRecursion {
+public class FactorialUsingRecursion {
 
     // IN RECURSION , THE FUNCTION MUST BE WRITTEN BETWEEN class AND static void
     // main

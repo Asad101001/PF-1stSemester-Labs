@@ -11,7 +11,7 @@ public class FileHandlingAssignment {
 
 //QUESTION 1:Write steps that are required to open a text file to read data from the file
         BufferedReader br = null;
-        String path = "src/sampleForQuizExam.txt";
+        String path = "data/sampleForQuizExam.txt";
         try {
             File file = new File(path);
             FileReader fileReader = new FileReader(file);

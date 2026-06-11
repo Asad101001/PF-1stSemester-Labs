@@ -1,6 +1,6 @@
 
 
-public class POWERofBASE {
+public class PowerOfBase {
 
 	public static long pow(int b, int e) {
 		if (e == 0) {

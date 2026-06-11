@@ -1,12 +1,12 @@
 import java.io.*;
 import java.util.*;
 
-public class gptASSIGNMENT {
+public class GptAssignment {
 
 
         public static void main(String[] args) {
             // Question 1: Open a text file to read data
-            String filename = "src/sampleForQuizExam.txt";
+            String filename = "data/sampleForQuizExam.txt";
             BufferedReader reader = null;
 
             try {

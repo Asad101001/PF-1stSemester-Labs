@@ -3,12 +3,12 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class WRITENEWFILE {
+public class WriteNewFile {
 
 	public static void main(String[] args) {
 
 		try {
-			FileWriter myWriter = new FileWriter("filename.txt"); // 'FileWriter'= OBJECT 'myWriter'= NAME
+			FileWriter myWriter = new FileWriter("data/filename.txt"); // 'FileWriter'= OBJECT 'myWriter'= NAME
 																	// FileWriter is used to write data to
 																	// 'filename.txt' using myWriter
 

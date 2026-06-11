@@ -1,7 +1,7 @@
 
 import java.util.Random;
 
-public class rollingthedice {
+public class RollingTheDice {
 
 	public static void main(String[] args) {
 		
